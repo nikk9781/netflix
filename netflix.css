@@ -1,0 +1,844 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans 3', sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+
+/* header div ---> Starts*/
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(./image/Background/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 11.3%;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 0px;
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+}
+nav button
+{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+#lang-button-1 > .lang-button
+{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+#lang-button-1 > .lang-button img
+{
+    width: 10px;
+    margin-left: 10px;
+}
+#lang-button-1 > .lang-button > a
+{
+    text-decoration: none;
+    color: white;
+}
+.lang-button > a > ul
+{
+    list-style-type: none;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+}
+.header-cont
+{
+    text-align: center;
+    margin: 13rem 0rem;
+}
+.header-cont h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+    /* max-width: 650px; */
+}
+.header-cont h3
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.header-cont p
+{
+    font-size: 1.25rem;
+}
+.email-signup
+{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0rem 308px;
+}
+.email-signup input
+{
+    color: white;
+    padding: 1rem 1rem;
+    background: transparent;
+    flex: 1;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4))
+}
+.email-signup > input::placeholder
+{
+    color: gray;
+}
+.email-signup > button
+{
+    background: #db0001;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 16px 30px;
+    border: 1px solid #db0001;
+    font-weight: 700;
+}
+/* header div ---> Ends*/
+
+/* Footer div ---> Starts*/
+footer, #FreqAskQue
+{
+    margin: 0rem;
+    padding: 4.5rem 174.6px;
+    border-top: 9px solid #232323;
+}
+footer a, footer h3, footer h5
+{
+    color: #a5a5a5;
+}
+footer > #div-1
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+footer > #div-2
+{
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+footer > #div-2 > #div-2-left, footer > #div-2 > #div-2-right
+{
+    display: flex;
+}
+#div-2 div > ul
+{
+    display: block;
+    list-style-type: none;
+    padding: 0rem;
+}
+div > ul > #none-li
+{
+    width: 200%;
+    padding-top: 1rem;
+}
+div > ul > #right-li-1, div > ul > #right-li-2
+{
+    width: 200%;
+    padding-top: 1rem;
+    padding-right: 12rem;
+}
+div > ul > #left-li
+{
+    width: 200%;
+    padding-top: 1rem;
+    padding-left: 12rem;
+}
+footer h5
+{
+    padding-top: 1.5rem;
+    font-weight: 400;
+}
+div > ul > li > a
+{
+    display: block;
+    width: 100%;
+}
+#lang-button-2 > .lang-button
+{
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+#lang-button-2 > .lang-button > img
+{
+    width: 10px;
+    margin-left: 10px;
+}
+/* footer div ---> Ends*/
+
+/* feature-1 div ---> Starts*/
+.feature-1
+{
+    display: flex;
+    justify-content: center;
+    border-top: 9px solid #232323;
+    padding: 72px 0px;
+}
+.feature-1 > #main-div-1
+{
+    display: flex;
+    width: 80%;
+}
+.feature-1 > #main-div-1 > #left-1
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+#main-div-1 > #left-1 > h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#main-div-1 > #left-1 > p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.feature-1 > #main-div-1 > #right-1
+{
+    width: 50%;
+    position: relative;
+}
+#right-1 > img
+{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#right-1 > video
+{
+    position: absolute;
+    top: 19.9%;
+    left: 13.1%;
+    width: 72.9%;
+    height: 55.67%;
+    z-index: 0;
+}
+/* feature-1 div ---> Ends*/
+
+/* feature-2 div ---> Starts*/
+.feature-2
+{
+    display: flex;
+    justify-content: center;
+    border-top: 9px solid #232323;
+    padding: 72px 0px;
+}
+.feature-2 > #main-div-2
+{
+    position: relative;
+    width: 80%;
+    display: flex;
+}
+.feature-2 > #main-div-2 > #left-2
+{
+    width: 50%;
+    justify-content: center;
+}
+#main-div-2 > #left-2 > img
+{
+    width: 100%;
+}
+#main-div-2 > #left-2 > #download-status
+{
+    position: absolute;
+    top: 71%;
+    left: 11.4%;
+    width: 27%;
+    height: 70px;
+}
+#left-2 > #download-status > #download-str
+{
+    background-color: black;
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+#download-status > #download-str > #download-status-1
+{
+    width: 19%;
+}
+#download-str > #download-status-1 > img
+{
+    width: 100%;
+}
+#download-status > #download-str > #download-status-2
+{
+    padding: 25px 15px;
+    font-size: 10px;
+    width: 62%;
+}
+#download-str > #download-status-2 > #download-cont
+{
+    font-weight: 50;
+    color: #0066d3;
+}
+#download-status > #download-str > #download-status-3
+{
+    padding: 16px 5px;
+    width: 19%;
+}
+#download-str > #download-status-3 > img
+{
+    width: 100%;
+}
+.feature-2 > #main-div-2 > #right-2
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+#main-div-2 > #right-2 > h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#main-div-2 > #right-2 > p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* feature-2 div ---> Ends*/
+
+/* feature-3 div ---> Starts*/
+.feature-3
+{
+    display: flex;
+    justify-content: center;
+    border-top: 9px solid #232323;
+    padding: 72px 0px;
+}
+.feature-3 > #main-div-3
+{
+    display: flex;
+    width: 80%;
+}
+.feature-3 > #main-div-3 > #left-3
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+#main-div-3 > #left-3 > h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#main-div-3 > #left-3 > p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.feature-3 > #main-div-3 > #right-3
+{
+    width: 50%;
+    position: relative;
+}
+#right-3 > img
+{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+#right-3 > video
+{
+    position: absolute;
+    top: 5.5%;
+    left: 18.8%;
+    width: 61.3%;
+    height: 55.68%;
+    z-index: 0;
+}
+/* feature-3 div ---> Ends*/
+
+/* feature-4 div ---> Starts*/
+.feature-4
+{
+    display: flex;
+    justify-content: center;
+    border-top: 9px solid #232323;
+    padding: 72px 0px;
+}
+.feature-4 > #main-div-4
+{
+    position: relative;
+    width: 80%;
+    display: flex;
+}
+.feature-4 > #main-div-4 > #left-4
+{
+    width: 50%;
+    justify-content: center;
+}
+#main-div-4 > #left-4 > img
+{
+    width: 100%;
+}
+.feature-4 > #main-div-4 > #right-4
+{
+    width: 50%;
+    padding-top: 8rem;
+}
+#main-div-4 > #right-4 > h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#main-div-4 > #right-4 > p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* feature-4 div ---> Ends*/
+
+/* FreqAskQue div ---> Starts*/
+.FreqAskQue
+{
+    text-align: center;
+    border-top: 9px solid #232323;
+    padding: 72px 0px;
+}
+.FreqAskQue > h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.accordion
+{
+    margin: 10px auto;
+    width: 100%;
+    max-width: 74rem;
+}
+.accordion > ul > li
+{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion > ul > li > label
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after
+{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.2s;
+}
+input[type="radio"]
+{
+    display: none;
+}
+.accordion .content
+{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s, padding 0.2s;
+}
+.accordion input[type="radio"]:checked + label + .content
+{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after
+{
+    transform: rotate(135deg);
+}
+.FreqAskQue p
+{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.FreqAskQue form
+{
+    margin-top: 1rem;
+}
+.FreqAskQue form
+{
+    padding: 0rem 308px;
+}
+/* FreqAskQue div ---> Ends*/
+
+/*Mobile*/
+@media (max-width: 600px)
+{    
+    /* header div ---> Starts*/
+    .header
+    {
+        height: 52vh;
+        padding: 10px 5.3%;
+    }
+    .logo
+    {
+        width: 95px;
+    }
+    nav button
+    {
+        margin-left: 2px;
+    }
+    #lang-button-1 > .lang-button
+    {
+        border: 1px solid grey;
+    }
+    .header-cont
+    {
+        margin: 2.5rem 0rem;
+    }
+    .header-cont h1
+    {
+        font-size: 2rem;
+        font-weight: 750;
+    }
+    .header-cont h3
+    {
+        font-size: 1.2rem;
+    }
+    .header-cont p
+    {
+        font-size: 1.1rem;
+        padding: 0px 25px;
+    }
+    .email-signup
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 1rem;
+        padding: 0rem 30px;
+    }
+    .email-signup input
+    {
+        width: 100%;
+        padding: 0.7rem 1rem;
+        font-size: 1rem;
+        border: 1px solid gray;
+    }
+    .email-signup > input::placeholder
+    {
+        color: lightgray;
+    }
+    .email-signup > button
+    {
+        font-size: 1.1rem;
+        padding: 14px 20px;
+    }
+    /* header div ---> Ends*/
+    
+    /* Footer div ---> Starts*/
+    footer
+    {
+        margin: 0px;
+        padding: 32px 24px;
+    }
+    footer > #div-2
+    {
+        flex-direction: column;
+    }
+    div > ul > #none-li
+    {
+        width: 121%;
+        padding-right: 5rem;
+    }
+    div > ul > #right-li-1
+    {
+        width: 121%;
+        padding-right: 6.5rem;
+    }
+    div > ul > #right-li-2
+    {
+        width: 100%;
+        padding-right: 1.5rem;
+    }
+    div > ul > #left-li
+    {
+        width: 121%;
+        padding-left: 0px;
+        padding-right: 2rem;
+    }
+    /* footer div ---> Ends*/
+    
+    /* feature-1 div ---> Starts*/
+    .feature-1
+    {
+        display: flex;
+        padding: 56px 0px;
+    }
+    .feature-1 > #main-div-1
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+    .feature-1 > #main-div-1 > #left-1
+    {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    #main-div-1 > #left-1 > h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #main-div-1 > #left-1 > p
+    {
+        font-size: 1.125rem;
+    }
+    #main-div-1 > #left-1 > p > br
+    {
+        display: none;
+    }
+    .feature-1 > #main-div-1 > #right-1
+    {
+        width: 100%;
+    }
+    /* feature-1 div ---> Ends*/
+    
+    /* feature-2 div ---> Starts*/
+    .feature-2
+    {
+        padding: 56px 0px;
+    }
+    .feature-2 > #main-div-2
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 90%;
+    }
+    .feature-2 > #main-div-2 > #left-2
+    {
+        width: 100%;
+    }
+    #main-div-2 > #left-2 > img
+    {
+        width: 100%;
+    }
+    #main-div-2 > #left-2 > #download-status
+    {
+        position: absolute;
+        top: 79%;
+        left: 14.4%;
+        width: 72%;
+        height: 70px;
+    }
+    #left-2 > #download-status > #download-str
+    {
+        padding: 0.2rem 0.75rem;
+    }
+    #download-status > #download-str > #download-status-1
+    {
+        width: 15%;
+    }
+    #download-status > #download-str > #download-status-2
+    {
+        padding: 12px 14px;
+        font-size: 9px;
+        width: 62%;
+    }
+    #download-status > #download-str > #download-status-3
+    {
+        padding: 0px;
+        padding-top: 4px;
+        width: 19%;
+    }
+    .feature-2 > #main-div-2 > #right-2
+    {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    #main-div-2 > #right-2 > h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #main-div-2 > #right-2 > p
+    {
+        font-size: 1.125rem;
+    }
+    /* feature-2 div ---> Ends*/
+    
+    /* feature-3 div ---> Starts*/
+    .feature-3
+    {
+        display: flex;
+        padding: 56px 0px;
+    }
+    .feature-3 > #main-div-3
+    {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+    .feature-3 > #main-div-3 > #left-3
+    {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    #main-div-3 > #left-3 > h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #main-div-3 > #left-3 > p
+    {
+        font-size: 1.125rem;
+    }
+    #main-div-3 > #left-3 > p > br
+    {
+        display: none;
+    }
+    .feature-3 > #main-div-3 > #right-3
+    {
+        width: 100%;
+    }
+    /* feature-3 div ---> Ends*/
+    
+    /* feature-4 div ---> Starts*/
+    .feature-4
+    {
+        padding: 56px 0px;
+    }
+    .feature-4 > #main-div-4
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 90%;
+    }
+    .feature-4 > #main-div-4 > #left-4
+    {
+        width: 100%;
+    }
+    .feature-4 > #main-div-4 > #right-4
+    {
+        width: 100%;
+        padding-top: 0rem;
+    }
+    #main-div-4 > #right-4 > h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    #main-div-4 > #right-4 > p
+    {
+        font-size: 1.125rem;
+    }
+    /* feature-4 div ---> Ends*/
+    
+    /* FreqAskQue div ---> Starts*/
+    .FreqAskQue
+    {
+        padding: 56px 0px;
+    }
+    .FreqAskQue > h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .accordion
+    {
+        margin: 20px auto;
+        width: 90%;
+        max-width: 74rem;
+    }
+    .accordion > ul > li
+    {
+        list-style: none;
+        width: 100%;
+        padding: 5px;
+    }
+    .accordion > ul > li > label
+    {
+        padding: 24px;
+        font-size: 18px;
+    }
+    label::after
+    {
+        content: '+';
+    }
+    input[type="radio"]
+    {
+        display: none;
+    }
+    .FreqAskQue p
+    {
+        margin-top: 0rem;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .FreqAskQue form
+    {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .FreqAskQue form
+    {
+        padding: 0rem 30px;
+    }
+    /* FreqAskQue div ---> Ends*/
+}
